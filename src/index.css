@@ -63,38 +63,27 @@ h6 {
   text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
 }
 
-.btn-style {
-  width: 12rem;
+.nav{
+  width: 9rem;
   height: 4rem;
-  border-radius: 2rem;
-  color: #fff;
-  background-color: var(--primary-color);
+  border-radius: 1rem;
+  color: rgb(248, 249, 250);
+  background-color:rgb(104, 104, 212);
   text-transform: capitalize;
-  font-size: 1.6rem;
+  font-size: 1rem;
+  padding: 5% 20%;
+  margin: 0% 0% 0% -5px;
+  position: relative;
+  left: 60%;
 }
 
-.btn-style:first-child {
-  margin-right: 2rem;
-}
 
-.btn-style:hover {
-  border: 0.1rem solid var(--primary-color);
+
+.nav:hover {
+  border: 0.1rem solid rgb(46, 46, 170);
   background-color: transparent;
   color: var(--primary-color);
   box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
-}
-
-.btn-style-border {
-  border: 0.1rem solid var(--primary-color);
-  background-color: transparent;
-  color: var(--primary-color);
-  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
-}
-
-.btn-style-border:hover {
-  color: #fff;
-  background-color: var(--primary-color);
-  text-transform: capitalize;
 }
 
 /* --------------------------------- Navbar ends  
